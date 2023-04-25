@@ -1,0 +1,17 @@
+/* 선택자 */
+h1 {
+  /* 스타일 규칙 */
+  color: blue;
+  font-size: 10px;
+}
+
+.title {
+  color: blueviolet;
+  font-size: 10px;
+}
+
+.title p {
+  color: blueviolet;
+  font-size: 50px;
+}
+

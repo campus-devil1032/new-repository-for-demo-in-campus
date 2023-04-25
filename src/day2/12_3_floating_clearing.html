@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Clearing Example</title>
+	<style>
+		.container {
+			border: 1px solid #333;
+			overflow: auto;
+			padding: 10px;
+		}
+
+		.box {
+			float: left;
+			margin: 10px;
+			padding: 10px;
+			border: 1px solid #ccc;
+			background-color: #f7f7f7;
+		}
+
+		.clear {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="box">Box 1</div>
+		<div class="box">Box 2</div>
+		<div class="box">Box 3</div>
+		<div class="clear"></div>
+		<p>This is a paragraph.</p>
+	</div>
+</body>
+</html>

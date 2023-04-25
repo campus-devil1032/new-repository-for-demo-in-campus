@@ -1,0 +1,18 @@
+<!-- 1. 다음 두 개의 버튼을 HTML로 작성하고, 각각 버튼을 클릭할 때마다 텍스트 색상이 바뀌도록 하시오. -->
+
+<button id="btn1">Button 1</button>
+<button id="btn2">Button 2</button>
+
+<script>
+    document.getElementById("btn1").addEventListener("click", function () {
+        console.log("color is.. ", document.getElementById("btn1").style.color);
+        if (document.getElementById("btn1").style.color == 'red')
+            document.getElementById("btn1").style.color = "blue";
+        else {
+            document.getElementById("btn1").style.color = "red";
+        }
+    });
+    document.getElementById("btn2").addEventListener("click", function () {
+        document.getElementById("btn2").style.color = "blue";
+    });
+</script>

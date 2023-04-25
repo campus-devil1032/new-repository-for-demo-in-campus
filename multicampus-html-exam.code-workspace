@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../교육자료"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "campus-backend-13th"
+	}
+}
